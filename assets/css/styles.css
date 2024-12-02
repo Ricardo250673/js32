@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+}
+
+.primero {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.segundo {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+
+}
+
+
+.segundo .imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.segundo .calculos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.tercero {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
